@@ -1,0 +1,106 @@
+<div class="container">
+<header>
+    <div class="menu" #menu>
+        <fa-icon [icon]="iconLeft" class="back" (click)="back()"></fa-icon>
+        <a routerLink="/about" class="about">Sobre mim</a>
+        <a routerLink="/contact" class="contact">Contato</a>
+
+        <a href="{{whatsapp}}Olá!%20Gostaria%20de%20mais%20informações"><button class="whats-btn-large"><fa-icon [icon]="iconWhatsapp" class="whatsappIcon"></fa-icon>Conversar</button></a>
+    </div>
+    <nav>
+        <p class="logo" id="logo">Blue<span style="color: #5B9CFF;">Web</span></p>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f" class="sun-icon"><path d="M480-28 346-160H160v-186L28-480l132-134v-186h186l134-132 134 132h186v186l132 134-132 134v186H614L480-28Zm141.5-310.5Q680-397 680-480t-58.5-141.5Q563-680 480-680t-141.5 58.5Q280-563 280-480t58.5 141.5Q397-280 480-280t141.5-58.5ZM395-395q-35-35-35-85t35-85q35-35 85-35t85 35q35 35 35 85t-35 85q-35 35-85 35t-85-35Zm85 255 100-100h140v-140l100-100-100-100v-140H580L480-820 380-720H240v140L140-480l100 100v140h140l100 100Zm0-340Z"/></svg> -->
+         <svg routerLink="/contact" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f" class="support-icon"><path d="M440-120v-80h320v-284q0-117-81.5-198.5T480-764q-117 0-198.5 81.5T200-484v244h-40q-33 0-56.5-23.5T80-320v-80q0-21 10.5-39.5T120-469l3-53q8-68 39.5-126t79-101q47.5-43 109-67T480-840q68 0 129 24t109 66.5Q766-707 797-649t40 126l3 52q19 9 29.5 27t10.5 38v92q0 20-10.5 38T840-249v49q0 33-23.5 56.5T760-120H440ZM331.5-411.5Q320-423 320-440t11.5-28.5Q343-480 360-480t28.5 11.5Q400-457 400-440t-11.5 28.5Q377-400 360-400t-28.5-11.5Zm240 0Q560-423 560-440t11.5-28.5Q583-480 600-480t28.5 11.5Q640-457 640-440t-11.5 28.5Q617-400 600-400t-28.5-11.5ZM241-462q-7-106 64-182t177-76q89 0 156.5 56.5T720-519q-91-1-167.5-49T435-698q-16 80-67.5 142.5T241-462Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f" class="menu-icon" (click)="openMenu()"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </nav>
+    <div class="path">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f" class="arrow"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            <p>Home</p>
+        </div>
+    <div class="hero">
+        <h1>Um <span style="color: #5B9CFF; font-family: 'Kdam Thmor Pro', sans-serif;">design exclusivo</span> para levar seu negócio ao próximo nível</h1>
+        <h2>Desenvolvimento de Landing Pages e Web Shops personalizadas para destacar e acelerar suas vendas na internet.</h2>
+        <a href="#name"><button class="CTA">Iniciar agora</button></a>
+        
+    </div>
+</header>
+
+
+<main><a href="#logo"><button class="arrow-btn"><fa-icon [icon]="iconUp" class="UpIcon"></fa-icon></button></a>
+    
+    <a href="https://wa.me/559191396547"><button class="whatsapp-button"><fa-icon [icon]="iconWhatsapp" class="whatsappIcon-btn"></fa-icon></button></a>
+    
+    <div class="seu-web-site">
+        <h1>Seu web site com:</h1>
+        <div class="card">
+            <h2>Design Exclusivo</h2>
+            <h3>Interfaces únicas e memoráveis que capturam a essência do seu negócio. Design com foco em UX e UI.</h3>
+        </div>
+        <div class="card">
+            <h2>SEO</h2>
+            <h3>Seu site com estrutura perfeitamente otimizada para os motores de busca. Apareça nas  primeiras páginas do Google.</h3>
+        </div>
+        <div class="card">
+            <h2>CTA (Chamada para Ação)</h2>
+            <h3>Botões e gatilhos ao longo de toda página, guiando o usuário de forma natural até o clique.</h3>
+        </div>
+        <div class="card">
+            <h2>Mobile First</h2>
+            <h3>Mais de 80% das vendas e acessos hoje acontecem pelo o celular. Por isso, seu site é projetado primeiramente para telas menores.</h3>
+        </div>
+</div>
+<div class="o-que-e-LP">
+        <h1>O que é Landing Page?</h1>
+        <h2>Ela funciona como uma vitrine exclusiva e focada, uma página única com um objetivo central: fazer o visitante tomar uma ação, que no seu caso pode ser seu produto ou serviço.
+            <br>
+        Agora, por que uma <span style="color: #5B9CFF; font-family: 'IBM Plex Sans Condensed', sans-serif;">LP</span> seria uma <span style="color: #5B9CFF; font-family: 'IBM Plex Sans Condensed', sans-serif;">estratégia indispensável?</span></h2>
+        <ul>
+            <li><strong>Foco total na Conversão:</strong> Sem menus complicados ou links que distraem, o visitante consome exatamente a informação que precisa para tomar a decisão de compra. </li>
+            <li><strong>Mais resultados gastando menos:</strong> Se você investe em anúncios no Google ou Instagram, direcionar esse público para uma Landing Page específica pode triplicar o seu retorno financeiro (ROI) comparado a um site comum.</li>
+            <li><strong>Apresentação irresistível da sua oferta:</strong> Nela, os benefícios do seu produto ou serviço é estruturado usando gatilhos mentais irresistíveis para o cliente.</li>
+        </ul>
+    </div>
+    <div class="solicite">
+    <h1>Solicite seu projeto</h1>
+    <h2>Preencha os campos para solicitar seu site personalizado.</h2>
+    <form (submit)="$event.preventDefault();getMessage(nameClient,numberClient,emailClient,msgClient.value, fillError1, fillError2, fillError3)">
+        <label for="">Nome*</label>
+        <input type="text" id="name" placeholder="Ex.: Maria Santos" #nameClient [style.margin-bottom]="marginBottom">
+        <p class="bottom-label" [style.display]="display" #fillError1>Preencha com seu nome*</p>
+        <label for="">Número*</label>
+        <input type="tel" id="" placeholder="(41) 99999-9999" #numberClient [style.margin-bottom]="marginBottom">
+        <p class="bottom-label" [style.display]="display" #fillError2>Preencha com seu número</p>
+        <label for="">Email*</label>
+        <input type="email" id="" placeholder="Exemplo@gmail.com" #emailClient [style.margin-bottom]="marginBottom">
+        <p class="bottom-label" [style.display]="display" #fillError3>Preencha com seu email</p>
+        <label for="">Mensagem</label>
+        <textarea type="text" id="msg" #msgClient></textarea>
+
+        <button type="submit"><fa-icon [icon]="iconWhatsapp" class="whatsappIcon"></fa-icon>Enviar por WhatsApp</button>
+        
+    </form>
+
+    
+</div>
+<div class="perguntas">
+    <h1>Perguntas frequentes</h1>
+    <div class="diferença" (click)="respostaDiferenca()"><fa-icon [icon]="iconRight" class="rightIcon" [style.transform]="rotationUp1"></fa-icon><p [style.color]="paraColor1">{{diferenca}}</p></div>
+    <div class="tempo" (click)="respostaTempo()"><fa-icon [icon]="iconRight" class="rightIcon" [style.transform]="rotationUp2"></fa-icon><p [style.color]="paraColor2">{{tempo}}</p></div>
+    <div class="fornecer" (click)="respostaFornecer()"><fa-icon [icon]="iconRight" class="rightIcon" [style.transform]="rotationUp3"></fa-icon><p [style.color]="paraColor3">{{fornecer}}</p></div>
+
+    <a href="{{whatsapp}}Olá!%20Gostaria%20de%20mais%20informações"><button class="whats-btn-large"><fa-icon [icon]="iconWhatsapp" class="whatsappIcon"></fa-icon>Começar agora</button></a>
+    
+</div>
+</main>
+<footer>
+    <p class="logo-f">Blue<span style="color: rgba(91, 157, 255, 0.8);">Web</span></p>
+    <p class="contact">Fale comigo</p>
+    <a href="mailto:flay.melo5@gmail.com" class="email-contact">contato@flay.melo5.com</a>
+      <div class="icons">
+        <a href="https://github.com/flavia65"><fa-icon [icon]="iconGitHub" class="github"></fa-icon></a>
+        <a href="mailto:flay.melo5@gmail.com"> <fa-icon [icon]="iconEmail" class="email-icon"></fa-icon></a>
+    </div>
+    
+    <p class="copyright">Copyright © 2026 Flávia Oliveira Melo</p>
+</footer>
+</div>

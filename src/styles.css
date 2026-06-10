@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+h2 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+.container {
+    display: block;
+    padding: 0 296px;
+    background-color: #151515;
+    @media (max-width: 1000px){
+        padding: 0 36px;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0 596px;
+    justify-self: center;
+    width: 100vw;
+    height: 270px;
+    background-color: #383838;
+    @media (max-width: 1000px){
+        padding: 20px 26px;
+    }
+}
+
+.logo-f {
+    margin-top: 36px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color:  rgba(225, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+.contact {
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+footer a {
+    width: 30px;
+    margin-bottom: 22px;
+    color: #1a1a1a;
+}
+
+.icons{
+    display: flex;
+    font-size: 24px;
+    gap: 12px;
+}
+.copyright {
+    position: relative;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 14px;
+    top: 10%;
+    color: rgba(225, 255, 255, 50%);
+    align-self: center;
+}

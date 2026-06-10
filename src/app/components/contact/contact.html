@@ -1,0 +1,35 @@
+<main class="container">
+    <fa-icon [icon]="iconLeft" routerLink="/" class="back"></fa-icon>
+    <h1>Precisa de ajuda?</h1>
+    <h2>Preencha os campos para enviar uma mensagem por e-mail.</h2>
+    <form (submit)="$event.preventDefault();sendEmail(nameClient, numberClient, subjectClient, msgClient.value, nameError, numError, subError)">
+        <label for="">Nome*</label>
+        <input type="text" id="name" placeholder="Ex.: Maria Santos" #nameClient>
+        <p class="bottom-label" #nameError>Preencha com seu nome*</p>
+
+        <label for="">Número*</label>
+        <input type="tel" id="" placeholder="(41) 99999-9999" #numberClient>
+        <p class="bottom-label" #numError>Preencha com seu número</p>
+
+        <label for="">Assunto*</label>
+        <input type="text" id="" placeholder="Assunto" #subjectClient>
+        <p class="bottom-label" #subError>Escreva um assunto</p>
+
+        <label for="">Mensagem</label>
+        <textarea type="text" id="msg" #msgClient></textarea>
+
+        <button type="submit">Enviar mensagem</button>
+        
+    </form>
+
+</main>
+<footer>
+    <p class="logo-f">Blue<span style="color: rgba(91, 157, 255, 0.8);">Web</span></p>
+    <p class="contact">Fale comigo</p>
+    <a href="mailto:flay.melo5@gmail.com" class="email-contact">contato@flay.melo5.com</a>
+      <div class="icons">
+        <a href="https://github.com/flavia65"><fa-icon [icon]="iconGitHub" class="github"></fa-icon></a>
+        <a href="mailto:flay.melo5@gmail.com"> <fa-icon [icon]="iconEmail" class="email-icon"></fa-icon></a>
+    </div>
+    <p class="copyright">Copyright © 2026 Flávia Oliveira Melo</p>
+</footer>

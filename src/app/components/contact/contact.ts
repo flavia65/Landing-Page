@@ -77,7 +77,7 @@ export class Contact {
       }, 5000)
       return
     } else {
-      let emailMessage = `${this.email}?subject=${subjectLink}&body=${emailMsg}%0A%0A%0A👤%20${nameLink}%0A📞%20${number}`
+      let emailMessage = `${this.email}?subject=${subjectLink}&body=${emailMsg}%0A%0A%0A👤%20${nameLink}%0A📞%20${number.value}`
 
     window.open(emailMessage, '_blank')
     }
